@@ -1,0 +1,46 @@
+{
+  "name": "project-cselec3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^1.2.9",
+    "@ai-sdk/react": "^1.2.12",
+    "@material-tailwind/react": "^2.1.10",
+    "@radix-ui/react-scroll-area": "^1.2.9",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tailwindcss/vite": "^4.1.5",
+    "ai": "^4.3.16",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.510.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.0",
+    "tailwind-merge": "^3.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
+  }
+}
